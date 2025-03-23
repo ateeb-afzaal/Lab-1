@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Information</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+            .container {
+                max-width: 1000px;
+                margin: auto;
+                background: rgb(243, 233, 233);
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+                gap: 20px;
+            }
+            .text-section {
+                flex: 1;
+            }
+            .image-section {
+                flex: 1;
+                text-align: right; /* Moves image to right */
+                max-width: 500px;
+            }
+            .image-section img {
+                width: 200%;
+                max-width: 500px; /* Ensures it does not exceed this width */
+                height: auto;
+                border-radius: 20px;
+                object-fit: cover;
+            }
+            h1 {
+                color: #2563eb;
+            }
+            
+        </style>
+    </head>
+<body class="bg-gray-100 p-6">
+    <div class="container">
+        <div class="text-section">
+            <h1 class="text-4xl font-bold mb-4">Welcome to UOL</h1>
+            <p class="text-lg text-gray-700 mb-4">The University of Lahore strives to achieve the following mission goals in pursuance of UOL vision:
+
+                Pursue and deliver academic excellence in every aspect of our endeavors
+                Reinforce the culture of research, innovation and commercialization
+                Produce graduates to become future ready leaders through lifelong learning experience
+                Improve sustainability of the ecosystem which is vital for ensuring social and environmental wellbeing of society
+                Promote global flow of ideas, students and scholars through comprehensive internationalization</p>
+            <h2 class="text-2xl font-semibold text-blue-600 mt-6">Our Aim</h2>
+            <p class="text-gray-600 mb-4">Fostering innovation, research, and academic excellence.</p>
+            
+            
+            <a href="pages/fyp-supervisor-finder.html" class="bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md">Go to FYP Supervisor Finder</a>
+        </div>
+        <div class="image-section">
+            <img src="assets/images/university.jpg" alt="University Image">
+        </div>
+    </div>
+    <footer>
+        <h3>Contact Information</h3>
+        <p >Email: info@uol.com</p>
+            <p>Phone: +923416020987</p>
+        <p>Address: Defence Road, Lahore</p>
+    </footer>
+</body>
+</html>
